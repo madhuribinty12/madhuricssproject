@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic - Fresh Foods at your Doorsteps</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                        <path d="M20 5C15 5 12 8 12 12C12 16 15 19 20 19C25 19 28 16 28 12C28 8 25 5 20 5Z" fill="#6BBE66"/>
+                        <path d="M20 19C15 22 10 28 10 35H30C30 28 25 22 20 19Z" fill="#6BBE66"/>
+                    </svg>
+                    <span class="logo-text">Organic</span>
+                </div>
+                
+                <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+                
+                <nav class="nav-menu" id="navMenu">
+                    <div class="nav-search">
+                        <select class="category-select">
+                            <option>All Categories</option>
+                        </select>
+                        <input type="search" placeholder="Search for products">
+                        <button class="search-btn">🔍</button>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="#" class="active">HOME</a></li>
+                        <li><a href="#">PAGES ▾</a></li>
+                    </ul>
+                    <div class="nav-icons">
+                        <button class="icon-btn">👤</button>
+                        <button class="icon-btn">🔖</button>
+                        <button class="icon-btn">🛒</button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="text-green">Organic</span> Foods at your<br>
+                    Doorsteps
+                </h1>
+                <p class="hero-subtitle">Dignissim massa diam elementum.</p>
+                
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">START SHOPPING</button>
+                    <button class="btn btn-secondary">JOIN NOW</button>
+                </div>
+
+                <!-- Stats -->
+                <div class="stats">
+                    <div class="stat-item">
+                        <div class="stat-number">14k+</div>
+                        <div class="stat-label">
+                            <div>PRODUCT</div>
+                            <div>VARIETIES</div>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">50k+</div>
+                        <div class="stat-label">
+                            <div>HAPPY</div>
+                            <div>CUSTOMERS</div>
+                        </div>
+                    </div>
+                    <!-- <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">
+                            <div>STORE</div>
+                            <div>LOCATIONS</div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card feature-green">
+                    <div class="feature-icon">🔄</div>
+                    <div class="feature-content">
+                        <h3>Fresh from farm</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="feature-card feature-dark">
+                    <div class="feature-icon">🌿</div>
+                    <div class="feature-content">
+                        <h3>100% Organic</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="feature-card feature-orange">
+                    <div class="feature-icon">🚚</div>
+                    <div class="feature-content">
+                        <h3>Free delivery</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Section -->
+    <section class="category-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Category</h2>
+                <div class="section-nav">
+                    <button class="btn-view-all">View All</button>
+                    <button class="nav-arrow">›</button>
+                </div>
+            </div>
+            <div class="category-grid">
+                <div class="category-item">
+                    <div class="category-image">
+                        <img src="https://themewagon.github.io/organic/images/category-thumb-1.jpg" alt="Fruits & Veges">
+                    </div>
+                    <p class="category-name">Fruits & Veges</p>
+                </div>
+                <div class="category-item">
+                    <div class="category-image">
+                        <img src="https://themewagon.github.io/organic/images/category-thumb-2.jpg" alt="Breads & Sweets">
+                    </div>
+                    <p class="category-name">Breads & Sweets</p>
+                </div>
+                <div class="category-item">
+                    <div class="category-image">
+                        <img src="https://themewagon.github.io/organic/images/category-thumb-4.jpg" alt="Fruits & Veges">
+                    </div>
+                    <p class="category-name">Fruits & Veges</p>
+                </div>
+                <div class="category-item">
+                    <div class="category-image">
+                        <img src="https://themewagon.github.io/organic/images/category-thumb-4.jpg" alt="Beverages">
+                    </div>
+                    <p class="category-name">Beverages</p>
+                </div>
+                <div class="category-item">
+                    <div class="category-image">
+                        <img src="https://themewagon.github.io/organic/images/category-thumb-5.jpg" alt="Meat Products">
+                    </div>
+                    <p class="category-name">Meat Products</p>
+                </div>
+                <div class="category-item">
+                    <div class="category-image">
+                        <img src="https://themewagon.github.io/organic/images/category-thumb-6.jpg" alt="Breads">
+                    </div>
+                    <p class="category-name">Breads</p>
+                </div>
+                <div class="category-item">
+                    <div class="category-image">
+                        <img src="https://themewagon.github.io/organic/images/category-thumb-1.jpg" alt="Fruits & Veges">
+                    </div>
+                    <p class="category-name">Fruits & Veges</p>
+                </div>
+                <div class="category-item">
+                    <div class="category-image">
+                        <img src="https://themewagon.github.io/organic/images/category-thumb-8.jpg" alt="Breads & Sweets">
+                    </div>
+                    <p class="category-name">Breads & Sweets</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Selling Products -->
+    <section class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Best selling products</h2>
+                <button class="btn-view-all">View All</button>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://themewagon.github.io/organic/images/product-thumb-1.png" alt="Whole Wheat Sandwich Bread">
+                    </div>
+                    <h3 class="product-name">Whole Wheat Sandwich Bread</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★<span class="half">★</span></span>
+                        <span class="rating-count">(222)</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="old-price">$24.00</span>
+                        <span class="current-price">$18.00</span>
+                        <span class="discount-badge">10% OFF</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://themewagon.github.io/organic/images/product-thumb-2.png" alt="Whole Grain Oatmeal">
+                    </div>
+                    <h3 class="product-name">Whole Grain Oatmeal</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★<span class="half">★</span></span>
+                        <span class="rating-count">(41)</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="old-price">$54.00</span>
+                        <span class="current-price">$50.00</span>
+                        <span class="discount-badge">10% OFF</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://themewagon.github.io/organic/images/product-thumb-3.png" alt="Sharp Cheddar Cheese Block">
+                    </div>
+                    <h3 class="product-name">Sharp Cheddar Cheese Block</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★<span class="half">★</span></span>
+                        <span class="rating-count">(32)</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="old-price">$14.00</span>
+                        <span class="current-price">$12.00</span>
+                        <span class="discount-badge">10% OFF</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://themewagon.github.io/organic/images/product-thumb-4.png" alt="Organic Baby Spinach">
+                    </div>
+                    <h3 class="product-name">Organic Baby Spinach</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★<span class="half">★</span></span>
+                        <span class="rating-count">(222)</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="old-price">$24.00</span>
+                        <span class="current-price">$18.00</span>
+                        <span class="discount-badge">10% OFF</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://themewagon.github.io/organic/images/product-thumb-5.png" alt="Organic Spinach Leaves">
+                    </div>
+                    <h3 class="product-name">Organic Spinach Leaves</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★<span class="half">★</span></span>
+                        <span class="rating-count">(222)</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="old-price">$24.00</span>
+                        <span class="current-price">$18.00</span>
+                        <span class="discount-badge">10% OFF</span>
+                    </div>
+                </div>
+
+                <!-- <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://themewagon.github.io/organic/images/product-thumb-6.png" alt="Fresh Salmon">
+                    </div>
+                    <h3 class="product-name">Fresh Salmon</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★<span class="half">★</span></span>
+                        <span class="rating-count">(222)</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="old-price">$24.00</span>
+                        <span class="current-price">$18.00</span>
+                        <span class="discount-badge">10% OFF</span>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Promotional Banners -->
+    <section class="promo-section">
+        <div class="container">
+            <div class="promo-grid">
+                <div class="promo-banner promo-large">
+                    <div class="promo-content">
+                        <h2 class="promo-title">Items on SALE</h2>
+                        <p class="promo-subtitle">Discounts up to 30%</p>
+                        <button class="btn btn-promo">SHOP NOW</button>
+                    </div>
+                </div>
+                <div class="promo-sidebar">
+                    <div class="promo-banner promo-small promo-blue">
+                        <div class="promo-content">
+                            <h3 class="promo-title">Combo offers</h3>
+                            <p class="promo-subtitle">Discounts up to 50%</p>
+                            <button class="btn btn-promo">SHOP NOW</button>
+                        </div>
+                    </div>
+                    <div class="promo-banner promo-small promo-teal">
+                        <div class="promo-content">
+                            <h3 class="promo-title">Discount Coupons</h3>
+                            <p class="promo-subtitle">Discounts up to 40%</p>
+                            <button class="btn btn-promo">SHOP NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured products</h2>
+                <div class="section-nav">
+                    <button class="btn-view-all">View All</button>
+                    <button class="nav-arrow">›</button>
+                </div>
+            </div>
+            <div class="featured-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://themewagon.github.io/organic/images/product-thumb-10.png" alt="Greek Style Plain Yogurt">
+                    </div>
+                    <h3 class="product-name">Greek Style Plain Yogurt</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★<span class="half">★</span></span>
+                        <span class="rating-count">(222)</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="old-price">$24.00</span>
+                        <span class="current-price">$18.00</span>
+                        <span class="discount-badge">10% OFF</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://themewagon.github.io/organic/images/product-thumb-11.png" alt="Orange Juice">
+                    </div>
+                    <h3 class="product-name">Pure Squeezed Orange Juice</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★<span class="half">★</span></span>
+                        <span class="rating-count">(222)</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="old-price">$24.00</span>
+                        <span class="current-price">$18.00</span>
+                        <span class="discount-badge">10% OFF</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://themewagon.github.io/organic/images/product-thumb-12.png" alt="Fresh Oranges">
+                    </div>
+                    <h3 class="product-name">Fresh Oranges</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★<span class="half">★</span></span>
+                        <span class="rating-count">(222)</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="old-price">$24.00</span>
+                        <span class="current-price">$18.00</span>
+                        <span class="discount-badge">10% OFF</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://themewagon.github.io/organic/images/product-thumb-13.png" alt="Dark Chocolate">
+                    </div>
+                    <h3 class="product-name">Gourmet Dark Chocolate Bars</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★<span class="half">★</span></span>
+                        <span class="rating-count">(222)</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="old-price">$24.00</span>
+                        <span class="current-price">$18.00</span>
+                        <span class="discount-badge">10% OFF</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://themewagon.github.io/organic/images/product-thumb-14.png" alt="Fresh Celery">
+                    </div>
+                    <h3 class="product-name">Fresh Green Celery</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★<span class="half">★</span></span>
+                        <span class="rating-count">(222)</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="old-price">$24.00</span>
+                        <span class="current-price">$18.00</span>
+                        <span class="discount-badge">10% OFF</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h2>Get 25% Discount on your first purchase</h2>
+                    <p>Just Sign Up & Register it now to become member.</p>
+                </div>
+                <div class="newsletter-form">
+                    <input type="text" placeholder="Name" class="form-input">
+                    <input type="email" placeholder="Email Address" class="form-input">
+                    <button type="submit" class="btn-submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Recent Blog</h2>
+                <button class="btn-view-all">View All</button>
+            </div>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://themewagon.github.io/organic/images/post-thumbnail-1.jpg" alt="Casual look ideas">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">📅 22 AUG 2021</span>
+                            <span class="blog-category">📁 TIPS & TRICKS</span>
+                        </div>
+                        <h3 class="blog-title">Top 10 casual look ideas to dress up your kids</h3>
+                        <p class="blog-excerpt">Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec quam.</p>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://themewagon.github.io/organic/images/post-thumbnail-2.jpg" alt="Street wears">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">📅 25 AUG 2021</span>
+                            <span class="blog-category">📁 TRENDING</span>
+                        </div>
+                        <h3 class="blog-title">Latest trends of wearing street wears supremely</h3>
+                        <p class="blog-excerpt">Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec quam.</p>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://themewagon.github.io/organic/images/post-thumbnail-3.jpg" alt="Comfortable clothes">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">📅 28 AUG 2021</span>
+                            <span class="blog-category">📁 INSPIRATION</span>
+                        </div>
+                        <h3 class="blog-title">10 Different Types of comfortable clothes ideas for women</h3>
+                        <p class="blog-excerpt">Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec quam.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Download Section -->
+    <section class="app-section">
+        <div class="container">
+            <div class="app-container">
+                <div class="app-content">
+                    <h2 class="app-title">Download Organic App</h2>
+                    <p class="app-subtitle">Online Orders made easy, fast and reliable</p>
+                    <div class="app-buttons">
+                        <a href="#" class="app-store-btn">
+                            <img src="https://themewagon.github.io/organic/images/img-app-store.png" alt="Download on App Store">
+                        </a>
+                        <a href="#" class="app-store-btn">
+                            <img src="https://themewagon.github.io/organic/images/img-google-play.png" alt="Get it on Google Play">
+                        </a>
+                    </div>
+                </div>
+                <div class="app-image">
+                    <img src="https://themewagon.github.io/organic/images/banner-onlineapp.png" alt="Organic App">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Searches Section -->
+    <section class="related-section">
+        <div class="container">
+            <h2 class="related-title">People are also looking for</h2>
+            <div class="tags-container">
+                <a href="#" class="tag">Blue diamon almonds</a>
+                <a href="#" class="tag">Angie's Boomchickapop Corn</a>
+                <a href="#" class="tag">Salty kettle Corn</a>
+                <a href="#" class="tag">Chobani Greek Yogurt</a>
+                <a href="#" class="tag">Sweet Vanilla Yogurt</a>
+                <a href="#" class="tag">Foster Farms Takeout Crispy wings</a>
+                <a href="#" class="tag">Warrior Blend Organic</a>
+                <a href="#" class="tag">Chao Cheese Creamy</a>
+                <a href="#" class="tag">Chicken meatballs</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="info-features-section">
+        <div class="container">
+            <div class="info-features-grid">
+                <div class="info-feature-card">
+                    <div class="info-icon">📍</div>
+                    <h3>Free delivery</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+                </div>
+                <div class="info-feature-card">
+                    <div class="info-icon">🔒</div>
+                    <h3>100% secure payment</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+                </div>
+                <div class="info-feature-card">
+                    <div class="info-icon">✓</div>
+                    <h3>Quality guarantee</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+                </div>
+                <div class="info-feature-card">
+                    <div class="info-icon">✓</div>
+                    <h3>Guaranteed savings</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+                </div>
+                <div class="info-feature-card">
+                    <div class="info-icon">🎁</div>
+                    <h3>Daily offers</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <path d="M20 5C15 5 12 8 12 12C12 16 15 19 20 19C25 19 28 16 28 12C28 8 25 5 20 5Z" fill="#6BBE66"/>
+                            <path d="M20 19C15 22 10 28 10 35H30C30 28 25 22 20 19Z" fill="#6BBE66"/>
+                        </svg>
+                        <span class="logo-text">Organic</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-icon">f</a>
+                        <a href="#" class="social-icon">🐦</a>
+                        <a href="#" class="social-icon">▶</a>
+                        <a href="#" class="social-icon">📷</a>
+                        <a href="#" class="social-icon">a</a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">Organic</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Conditions</a></li>
+                        <li><a href="#">Our Journals</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Affiliate Programme</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Offers</a></li>
+                        <li><a href="#">Discount Coupons</a></li>
+                        <li><a href="#">Stores</a></li>
+                        <li><a href="#">Track Order</a></li>
+                        <li><a href="#">Shop</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">Customer Service</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Returns & Refunds</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">Subscribe Us</h4>
+                    <p class="footer-description">Subscribe to our newsletter to get updates about our grand offers.</p>
+                    <div class="footer-subscribe">
+                        <input type="email" placeholder="Email Address" class="footer-input">
+                        <button class="footer-btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2024 Organic. All rights reserved.</p>
+                <p>HTML Template by <a href="#" class="footer-link">TemplatesJungle</a> Distributed By <a href="#" class="footer-link">ThemeWagon</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById('navMenu');
+            navMenu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
